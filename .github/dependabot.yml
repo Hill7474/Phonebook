@@ -9,3 +9,6 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+                    - name: Checkout
+                uses: actions/checkout@v4.1.0
+            
